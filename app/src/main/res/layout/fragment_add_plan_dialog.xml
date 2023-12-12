@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp"
+    android:orientation="vertical"
+    tools:context=".AddPlanDialogFragment">
+
+    <EditText
+        android:id="@+id/day"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:ems="10"
+        android:hint="Day"
+        android:inputType="text" />
+
+
+    <EditText
+        android:id="@+id/plan"
+        android:layout_width="match_parent"
+        android:layout_height="148dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="Meal-Plan"
+        android:inputType="textMultiLine" />
+
+</LinearLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5sp"
+        android:text="Title"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ingredients"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/ingredient"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5sp"
+        android:text="IngredientPlaceholder" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Instructions"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/instruction"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="InstructionsPlaceholder" />
+
+    <ImageButton
+        android:id="@+id/shareBtn"
+        android:layout_width="46dp"
+        android:layout_height="36dp"
+        android:background="#FAFAFB"
+        android:src="@android:drawable/ic_menu_share" />
+
+</LinearLayout>
