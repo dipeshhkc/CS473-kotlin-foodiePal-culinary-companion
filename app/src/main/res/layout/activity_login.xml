@@ -40,7 +40,7 @@
         android:layout_height="520dp"
         android:layout_marginTop="21dp"
         app:cardBackgroundColor="#00BC2525"
-        app:cardElevation="1dp"
+        app:cardElevation="2dp"
         app:cardPreventCornerOverlap="false"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -151,3 +151,4 @@
         app:layout_constraintStart_toStartOf="@+id/view" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
+
